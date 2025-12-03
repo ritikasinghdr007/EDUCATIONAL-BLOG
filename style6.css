@@ -1,0 +1,30 @@
+body { font-family: Arial; margin: 0; background: #f2f2f2; }
+    header { background: #0077b6; color: white; padding: 15px; text-align: center; }
+    .post {
+        background: white;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 5px;
+    }
+    .tag, .category {
+        display: inline-block;
+        background: #ddd;
+        padding: 3px 6px;
+        margin-right: 5px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .comments { margin-top: 10px; }
+    input, textarea {
+        width: 100%;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    button {
+        margin-top: 5px;
+        padding: 6px 10px;
+        background: #0077b6;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
